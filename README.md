@@ -136,12 +136,6 @@ When `/handoff` runs in LOAD mode, it:
 
 ---
 
-## Comparison to similar tools
-
-[`vmihalis/claude-handover`](https://github.com/vmihalis/claude-handover) ships two commands (`/handover` + `/pickup`) and writes `HANDOFF.md` to the repo root, overwriting in place. That works well for committable team-shared state, with the tradeoff of single-file history per repo and the need to gitignore the file. This skill makes the opposite call: out of the repo, timestamped per project, auto-pruned. Pick whichever matches how you work.
-
----
-
 ## License
 
 MIT
